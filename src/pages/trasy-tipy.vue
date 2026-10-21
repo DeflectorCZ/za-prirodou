@@ -69,6 +69,7 @@ import vysadek12Image from "@/assets/vysadky/12-tatry1.jpg";
 import vysadek13Image from "@/assets/vysadky/13-tatry2.jpg";
 import vysadek14Image from "@/assets/vysadky/14-houbyjesenik.jpg";
 import vysadek15Image from "@/assets/vysadky/15-padesátka2026.jpg";
+import vysadek16Image from "@/assets/vysadky/16-zlatehory.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -928,6 +929,66 @@ export default {
             description: 'Zkouška naší vytrvalosti a odolnosti 💪️ \n '
           },],
           mapyLink: 'https://mapy.com/s/mogupetulo',
+        },
+        {
+          id: 1,
+          image: vysadek16Image,
+          title: 'Štoly, mlha a houbařský ráj ⛏️',
+          fullTitle: 'Invaze hub ve Zlatých horách',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Severní Morava',
+          description: 'Na dvoudenní víkendový výsadek do Zlatých hor jsme vyrazili přímo ze Zlatých hor barevnou podzimní přírodou. Vidina objevování historických štol, sběru hub i bivaku na tichém místě nás přivítala po návštěvě Černého jezera prvním pořádně prudkým stoupáním. Ikonická trasa plná historických důlních děl ze 16. století, skalních vyhlídek a houbařských žní prověřila naši fyzickou kondici i kulinářské dovednosti přímo v lese. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Akce nás přivítala příjemným podzimním počasím s denními teplotami kolem 16 °C, které v noci klesly k hranici 6 °C. První den panovala pohoda a klid, nad ránem se však do lesa opřela hustá, tajemná mlha. Přestože probíhal podzimní chlad, noc v hamakách proběhla v úplném tichu a klidu, i když jsme si ve vší té pohodě zapomněli nad hlavy natáhnout celty.\n',
+
+          fullInformation: [
+            {
+              title: 'Štoly, houbařský ráj a tajemná mlha',
+              description: 'Tato trasa nabízí nádhernou kombinaci tajemné historie těžby zlata i tichých podzimních zákoutí. Hned po úvodním prozkoumání Černého jezera a prudkém výstupu na Táborské skály nás cesta ledla dál k unikátním historickým důlním dílům. Nikčina houbařská taktika a zapnutý radar na hříbky fungoval na jedničku – po celé trase nám doslova skákaly pod nohy obrovské kozáky i praváky. Následovaly fascintující štoly, jámy a přechod přes Příčný vrch. Druhý den nás čekala magická atmosférická mlha, která z lesní turistiky vytvořila nezapomenutelný zážitek.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Přírodní památka Černé jezero (550 m n. m.) – dvě nádrže, z nichž jedna skrývá kouzelnou atmosféru</b>',
+                '<b>Táborské skály (910 m n. m.) – odlesněný kopec s hezkým výhledem</b>',
+                '<b>Bezejmenná Vyhlídka (919 m n. m.) – zajímavé místo se zábradlím a vrzající brankou</b>',
+                '<b>Bývalá Olověná štola (925 m n. m.) & zlaté štoly ze 16. století</b>',
+                '<b>Důlní propadlina Langepinge (939 m n. m.) & Bývalá jáma Kunstschacht (911 m n. m.)</b>',
+                '<b>Velké pinky (929 m n. m.) – pozůstatky rozsáhlé historické těžby</b>',
+                '<b>Příčný vrch (975 m n. m.) – nejvyšší bod na trase</b>',
+                '<b>Hornické skály (914 m n. m. a 904 m n. m.) – vyhlídkové místo a houbařský rajón</b>',
+                '<b>Studánka Nad Mírem (725 m n. m.) – parádní studánka (10 bodů z 10!)</b>',
+                '<b>Přístřešek Svatá Anna (610 m n. m.)</b>',
+                '<b>Zřícenina hradu Edelštejn (679 m n. m.) – zbytky zdiva a dochovaný hradní příkop</b>',
+
+              ],
+              footer: 'Míst s historickým duchem i dechberoucí atmosférou je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a stoupání po štolách',
+              description: 'Trasa přes nejvyšší partie Zlatohorské vrchoviny nedala nic zadarmo. Hned v první části nás prověřilo prudké stoupání k Táborským skálám, po kterém následovalo neustálé kličkování mezi historickými propadlinami a hledání ideálního místa na bivak. Navigování mlžným lesem druhý den sice zakrylo výhledy z vyhlídek, ale odměna v podobě pohádkových scenérií a absolutního ticha za to rozhodně stála.\n'
+            },
+            {
+              title: 'Houbové kapsičky a lesní štrúdl z tortily',
+              description: 'Po úspěšném pověšení hamak v tichém podzimním smrkovém lese jsme z bohatého houbařského úlovku uvařili výbornou večeři – pečivové kapsičky plněné směsí masa a čerstvých hub. Absolutním vyvrcholením akce pak byla ranní snídaně v mlžném lese. Nikčin vařící skill se opět předvedl v plné parádě: křupavá tortila na másle, plněná jemně nakrájenými jablky, cukrem a skořicí. Tento jednoduchý lesní štrúdl perfektně doplnil pohodovou atmosféru celého víkendu.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Tento podzimní výsadek do Zlatých hor je skvělou volbou pro každého, kdo hledá spojení bohaté historie, tichých smrkových lesů a zálesácké pohody. Nabízí unikátní náhled do starých důlních děl, bohaté houbařské úlovky i neopakovatelnou atmosféru mlžného rána v hamace. Přestože tělo po náročném stoupání cítí únavu, večerní vaření u hamak a čerstvý horský vzduch vám všechno okamžitě vynahradí.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '19,95 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '735 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '978 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '446 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=DZfRcXqdyuA',
+            title: 'Zlaté hory ⚒️',
+            description: 'Stará důlní díla a parádní lesní vaření️ \n '
+          },],
+          mapyLink: 'https://mapy.com/s/kalugugohe',
         },
       ]
     }

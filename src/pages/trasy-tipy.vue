@@ -70,6 +70,7 @@ import vysadek13Image from "@/assets/vysadky/13-tatry2.jpg";
 import vysadek14Image from "@/assets/vysadky/14-houbyjesenik.jpg";
 import vysadek15Image from "@/assets/vysadky/15-padesátka2026.jpg";
 import vysadek16Image from "@/assets/vysadky/16-zlatehory.jpg";
+import vysadek17Image from "@/assets/vysadky/17-lacnov.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -989,6 +990,64 @@ export default {
             description: 'Stará důlní díla a parádní lesní vaření️ \n '
           },],
           mapyLink: 'https://mapy.com/s/kalugugohe',
+        },
+        {
+          id: 1,
+          image: vysadek17Image,
+          title: 'Vizovické vrchy a Beskydy 🍂',
+          fullTitle: 'Lačnovské a Pučínské skály',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Valašsko',
+          description: 'Na dvoudenní víkendový výsadek do Vizovických vrchů a Beskyd jsme vyrazili přímo z Lužné barevnou podzimní přírodou. Vidina objevování pískovcových labyrintů, vyhlídek na hřebenech i bivaku na tichém místě nás přivítala po úvodním stoupání prvním pořádně ostrým protažením noh. Ikonická trasa plná majestátních skalních útvarů, atmosférických lesů a barevného listí prověřila naši fyzickou kondici i odhodlání čelit nastupujícímu chladu přímo v terénu. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Akce nás přivítala proměnlivým podzimním počasím s denními teplotami kolem 5 až 6 °C, které přes noc klesly k hranici 1,8 °C. První den panovala syrová atmosféra s občasným deštěm a hustou mlhou, kterou později prorazilo slunce i druhá duha dne. Noc v hamakách na Větrné hůrce proběhla ve znamení nastupující studené fronty, ale ranní studené bezvětří s prvním slunečním svitem vytvořilo dokonalou odměnu.\n',
+
+          fullInformation: [
+            {
+              title: 'Lačnovské skály, Pulčínské řetězy a podzimní barvy',
+              description: 'Tová trasa nabízí nádhernou kombinaci divoké pískovcové přírody i tichých podzimních zákoutí. Po počátečním zahřátí kolem Žítkova buku a rozcestí U Oběšeného nás cesta vedla k Horním i Dolním Lačnovským skalám s unikátním pískovcovým „ementálem“. Druhý den po přechodu do CHKO Beskydy na nás čekaly vyhlášené Pulčínské skály s jednosměrným výstupem po řetězech, úzkými průrvami a skalními průchody. Celý přechod podtrhly neuvěřitelně kontrastní barvy končícího podzimu a zachovalé studánky po cestě.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Žítkův buk (660 m n. m.) – magický starý strom s neopakovatelnou atmosférou</b>',
+                '<b>Horní Lačnovské skály (674 m n. m.) – majestátní pískovcové útvary s výhledem</b>',
+                '<b>Prostřední Lačnovské skály (608 m n. m.) – boží místo pro hamaky s řadou stromů za sebou</b>',
+                '<b>Dolní Lačnovské skály (602 m n. m.) – impozantní pískovcová stěna</b>',
+                '<b>Vrchkopec (699 m n. m.) – klidné místo pro noční bivak</b>',
+                '<b>Čertovy skály / Čertova skála (467 m n. m.) – menší skalní masiv po cestě</b>',
+                '<b>Pulčínské skály (657 m n. m.) – národní přírodní rezervace s jednosměrným řetězovým výstupem</b>',
+                '<b>Vrch Hradisko (773 m n. m.) – nejvyšší bod celého víkendového přechodu</b>',
+                '<b>Dřevěná Útulňa Skaličí (704 m n. m.) – nová, čistá lesní stavba ideální na odpočinek i přespání</b>',
+
+              ],
+              footer: 'Míst s historickým duchem i dechberoucí atmosférou je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a stoupání po skalách',
+              description: 'Trasa přes hřebeny Vizovických vrchů a Beskyd nedala nic zadarmo. Hned první den prověřila naši kondici váha batohů (14 kg u Nikči a 17 kg u Defa) v kombinaci s ostrým stoupáním na hřebeny. Nejhustší výzvou byl technický výstup po řetězech na Pulčínských skalách s plnou zálesáckou náloží na zádech, kde flexibilita dostala zabrat. V závěru trasy nás navíc prověřila docházející zásoba jídla a dobrůtek před návratem k autu.\n'
+            },
+            {
+              title: 'Snídaně šampionů a oběť lesu',
+              description: 'Ranní balení hamak při 1,8 °C prověřilo naši odolnost vůči zkřehlým prstům. Snídaně se nesla v duchu rychlého doplnění energie v podobě snídaně šampionů a horké kávy. Výsadek se však neobešel bez drobné nehody, kdy Nikčino kafe nevydrželo na mechu a stalo se nedobrovolnou obětí lesu – kávová solidarita však zafungovala a o zbylý šálek jsme se bratrsky podělili.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Tento podzimní přechod Vizovických vrchů a Pulčínských skal je perfektní volbou pro každého, kdo hledá rozmanitou lesní turistiku, skalní výstupy a čundráckou pohodu. Nabízí krásné pískovcové labyrinty, parádní rána v hamakách i neopakovatelné podzimní výhledy do krajiny. I když kopce prověří vaše síly, syrová krása přírody v barvách podzimu vám veškerou námahu bohatě vynahradí.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '24,99 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1126 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '781 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '399 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://youtu.be/PmG2wnb1ev8',
+            title: 'Čundr v barvách podzimu 🍂',
+            description: 'Spousta skal a výhledů \n '
+          },],
+          mapyLink: 'https://mapy.com/s/ketoludula',
         },
       ]
     }
